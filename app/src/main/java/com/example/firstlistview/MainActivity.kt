@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val listView = findViewById<ListView>(R.id.main_list)
-        val redColor = Color.parseColor("#FF0000")
-        listView.setBackgroundColor(redColor)
+//        val redColor = Color.parseColor("#FF0000")
+//        listView.setBackgroundColor(redColor)
 
         listView.adapter = MyCustomAdapter(this)
     }
